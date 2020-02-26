@@ -1,0 +1,71 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.about{ 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    /* background-color: #202029; */
+    background-color: black;
+    height: 100vh;
+
+}
+
+.about-content{
+    grid-area: 2 / 2 / 5 / 6; 
+}
+
+.navigate-down{
+    display: flex;
+    justify-content: center;
+    grid-area: 6 / 2 / 7 / 6; 
+    align-items: flex-end;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.background-video {
+    position:fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+  }
+    
+
+  .name {
+    width:40rem;
+    animation: anime1 2s ease;
+  }
+
+.description{
+    animation: anime2 2s ease;
+  }
+
+  @keyframes  anime1 {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+  
+  @keyframes anime2 {
+    from {
+      margin-top: 100%;
+    }
+    to {
+      margin-top: 0;
+    }
+  }
+  
