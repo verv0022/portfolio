@@ -7,20 +7,42 @@ body,html {
 }
 
 .projects{ 
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
-    height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
     
 }
 
 .projects-content{
-    margin:10rem 0 0 0;
+  grid-area: 2 / 2 / 5 / 6; 
+    
     width: 75%;
     display:flex;
 }
 
-
-h1{
-    font-size: 2rem;
+.projects-title{
+    font-size: 30px;
 }
+
+.projects-title{
+    width:40rem;
+
+  }
+
+  @keyframes slideInLeft {
+    from {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+ 

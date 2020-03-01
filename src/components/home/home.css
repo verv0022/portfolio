@@ -15,11 +15,23 @@ body,html {
     /* background-color: #202029; */
     background-color: black;
     height: 100vh;
-
 }
 
 .about-content{
     grid-area: 2 / 2 / 5 / 6; 
+}
+
+.description{
+  color:white;
+  font-size:30px;
+  font-weight:bold;
+}
+
+.name{
+  color:white;
+  font-size: 64px;
+  font-weight:bolder;
+  margin:1rem;
 }
 
 .navigate-down{
@@ -29,43 +41,35 @@ body,html {
     align-items: flex-end;
 }
 
-h1{
-    font-size: 2rem;
+.name-container {
+  width:40rem;
+  animation: slideLeft 3s ease;
 }
 
-.background-video {
-    position:fixed;
-    z-index: -1;
-    right: 0;
-    bottom: 0;
-    height: 100vh;
-  }
-    
-
-  .name {
-    width:40rem;
-    animation: anime1 2s ease;
-  }
-
 .description{
-    animation: anime2 2s ease;
+    animation: slideUp 3s ease;
+    margin:1rem;
   }
 
-  @keyframes  anime1 {
+  @keyframes  slideLeft {
     from {
       margin-left: -100%;
+      opacity: 0;
     }
     to {
       margin-left: 0;
+      opacity: 1;
     }
   }
   
-  @keyframes anime2 {
+  @keyframes slideUp {
     from {
       margin-top: 100%;
+      opacity: 0;
     }
     to {
       margin-top: 0;
+      opacity: 1;
     }
   }
   
