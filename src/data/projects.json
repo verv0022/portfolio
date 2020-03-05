@@ -1,14 +1,38 @@
 [
-    {
-        "name": "My Project",
-        "url": "https://github.com",
-        "image": "./images/image1.png",
-        "description": "I built this with gatsby"
-    },
-    {
-        "name": "Another Project",
-        "url": "https://github.com",
-        "image": "./images/image2.png",
-        "description": "I built this with gatsby also"
-    }
+  {
+    "name": "My Project",
+    "url": "https://github.com",
+    "image": "./images/image1.png",
+    "description": "I built this with gatsby"
+  },
+  {
+    "name": "Another Project",
+    "url": "https://github.com",
+    "image": "./images/image2.png",
+    "description": "I built this with gatsby also"
+  },
+  {
+    "name": "My Project",
+    "url": "https://github.com",
+    "image": "./images/image1.png",
+    "description": "I built this with gatsby"
+  },
+  {
+    "name": "My Project",
+    "url": "https://github.com",
+    "image": "./images/image1.png",
+    "description": "I built this with gatsby"
+  },
+  {
+    "name": "My Project",
+    "url": "https://github.com",
+    "image": "./images/image1.png",
+    "description": "I built this with gatsby"
+  },
+  {
+    "name": "My Project",
+    "url": "https://github.com",
+    "image": "./images/image1.png",
+    "description": "I built this with gatsby"
+  }
 ]

@@ -1,25 +1,25 @@
-.header{
-    margin: 0 auto;
-    padding: 1.5rem;
-    position: fixed;
-    display: block;
-    top:0;
-    width: 100%;
-    background-color: black;
-    border-bottom:rgb(165, 120, 41) 2px solid;
-    /* opacity: 30%; */
-    z-index: 1;
-    color:white;
+.header {
+  margin: 0 auto;
+  padding: 1.5rem;
+  position: fixed;
+  display: block;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  border-bottom: rgb(165, 120, 41) 2px solid;
+  /* opacity: 30%; */
+  z-index: 1;
+  color: white;
 }
 
-.navbar{
-    margin: 0 auto;
-    width: 50%;
-    display:flex;
-    justify-content: space-evenly;
+.navbar {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
 }
 /* #9C8A6A */
 
-h3{
-    cursor: pointer;
+h3 {
+  cursor: pointer;
 }

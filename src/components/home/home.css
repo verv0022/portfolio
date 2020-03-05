@@ -1,75 +1,75 @@
-body,html {
-    margin: 0;
-    padding: 0;
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.about{ 
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    /* background-color: #202029; */
-    background-color: black;
-    height: 100vh;
+.about {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  /* background-color: #202029; */
+  background-color: black;
+  height: 100vh;
 }
 
-.about-content{
-    grid-area: 2 / 2 / 5 / 6; 
+.about-content {
+  grid-area: 2 / 2 / 5 / 6;
 }
 
-.description{
-  color:white;
-  font-size:30px;
-  font-weight:bold;
+.description {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.name{
-  color:white;
+.name {
+  color: white;
   font-size: 64px;
-  font-weight:bolder;
-  margin:1rem;
+  font-weight: bolder;
+  margin: 1rem;
 }
 
-.navigate-down{
-    display: flex;
-    justify-content: center;
-    grid-area: 6 / 2 / 7 / 6; 
-    align-items: flex-end;
+.navigate-down {
+  display: flex;
+  justify-content: center;
+  grid-area: 6 / 2 / 7 / 6;
+  align-items: flex-end;
 }
 
 .name-container {
-  width:40rem;
+  width: 40rem;
   animation: slideLeft 3s ease;
 }
 
-.description{
-    animation: slideUp 3s ease;
-    margin:1rem;
-  }
+.description {
+  animation: slideUp 3s ease;
+  margin: 1rem;
+}
 
-  @keyframes  slideLeft {
-    from {
-      margin-left: -100%;
-      opacity: 0;
-    }
-    to {
-      margin-left: 0;
-      opacity: 1;
-    }
+@keyframes slideLeft {
+  from {
+    margin-left: -100%;
+    opacity: 0;
   }
-  
-  @keyframes slideUp {
-    from {
-      margin-top: 100%;
-      opacity: 0;
-    }
-    to {
-      margin-top: 0;
-      opacity: 1;
-    }
+  to {
+    margin-left: 0;
+    opacity: 1;
   }
-  
+}
+
+@keyframes slideUp {
+  from {
+    margin-top: 100%;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
