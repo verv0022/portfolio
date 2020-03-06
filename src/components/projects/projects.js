@@ -45,19 +45,17 @@ const Projects = () => {
         </ScrollAnimation>
 
         <section className="project-preview-container">
-          <div className="project-preview-item-container">
-            {projects.map(({ node: project }) => {
-              return (
-                <ProjectPreviewItem
-                  key={project.id}
-                  name={project.name}
-                  description={project.description}
-                  imageData={project.image.childImageSharp.fluid}
-                  url={project.url}
-                />
-              )
-            })}
-          </div>
+          {projects.map(({ node: project }) => {
+            return (
+              <ProjectPreviewItem
+                key={project.id}
+                name={project.name}
+                description={project.description}
+                imageData={project.image.childImageSharp.fluid}
+                url={project.url}
+              />
+            )
+          })}
         </section>
       </main>
     </section>

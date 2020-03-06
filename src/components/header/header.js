@@ -6,9 +6,13 @@ const Header = () => {
   return (
     <header className="header">
       <div className="navbar">
-        <div onClick={() => scrollTo(".about")}>About</div>
-        <div onClick={() => scrollTo(".projects-content")}>Projects</div>
-        <div>Contact</div>
+        <button onClick={() => scrollTo(".about")} className="link-button">
+          About
+        </button>
+        <button onClick={() => scrollTo(".projects")} className="link-button">
+          Projects
+        </button>
+        <button className="link-button">Contact</button>
       </div>
     </header>
   )

@@ -14,25 +14,42 @@ html {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   /* background-color: #202029; */
-  background-color: black;
+  background: linear-gradient(
+      -4deg,
+      rgb(40, 5, 5) 0%,
+      rgb(40, 5, 5) 12%,
+      rgb(0, 0, 0, 0) 12%
+    ),
+    linear-gradient(
+      -50deg,
+      rgb(40, 5, 5) 11%,
+      rgb(40, 5, 5) 24%,
+      rgb(0, 0, 0) 24%,
+      rgb(0, 0, 0) 29%,
+      rgb(0, 0, 0) 29%,
+      rgb(0, 0, 0) 33%,
+      rgb(0, 0, 0) 33%,
+      rgb(0, 0, 0) 100%
+    );
+
   height: 100vh;
 }
 
 .about-content {
-  grid-area: 2 / 2 / 5 / 6;
+  grid-area: 3 / 2 / 5 / 6;
 }
 
 .description {
   color: white;
-  font-size: 30px;
   font-weight: bold;
 }
 
 .name {
   color: white;
-  font-size: 64px;
   font-weight: bolder;
   margin: 1rem;
+  font-family: "intro inline";
+  font-size: 60px;
 }
 
 .navigate-down {
@@ -50,6 +67,7 @@ html {
 .description {
   animation: slideUp 3s ease;
   margin: 1rem;
+  font-size: 20px;
 }
 
 @keyframes slideLeft {

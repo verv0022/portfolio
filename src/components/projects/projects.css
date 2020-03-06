@@ -13,41 +13,37 @@ html {
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  display: grid;
   height: 100vh;
+  background-color: rgb(40, 5, 5);
+}
+
+.projects-title {
+  margin: 2rem;
 }
 
 .projects-content {
-  grid-area: 2 / 2 / 6 / 6;
-}
-
-.projects-title {
-  font-size: 26px;
+  grid-area: 2 / 2 / 3 / 6;
 }
 
 .project-preview-container {
-  grid-area: 3 / 2 / 6 / 6;
-  margin-top: 6rem;
-  background-color: lightgray;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
 }
-
-/* .project-preview-item-container {
-
-} */
 
 .projects-title {
   width: 40rem;
+  color: white;
 }
 
 .project-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: black solid 2px;
+  border: white solid 2px;
+  background-color: white;
   padding: 1rem;
-  margin: 1rem;
-  width: 250px;
-  height: auto;
 }
 
 .project-item-details {
