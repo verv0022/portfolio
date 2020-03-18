@@ -7,47 +7,65 @@ html {
   box-sizing: border-box;
 }
 
+.projects-container {
+  background-color: #1b1b1c;
+}
+
 .projects {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  height: 100vh;
-  background-color: rgb(40, 5, 5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
 
 .projects-title {
-  margin: 2rem;
+  font-size: 24px;
+  align-self: flex-start;
+  margin: 0 14rem 0 14rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .projects-content {
-  grid-area: 2 / 2 / 3 / 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem 0 1rem;
+  margin: 1rem 14rem 0 14rem;
 }
 
 .project-preview-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  padding: 1rem;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
 }
 
 .projects-title {
-  width: 40rem;
   color: white;
 }
 
 .project-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: white solid 2px;
-  background-color: white;
-  padding: 1rem;
+
+  width: 400px;
+  height: 300px;
+}
+.project-item-details {
+  align-self: flex-start;
+  margin-top: 1rem;
 }
 
-.project-item-details {
-  margin-top: 20px;
+.navigate-down2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 10vh;
 }
 
 @keyframes slideInLeft {

@@ -6,7 +6,7 @@ const ProjectPreviewItem = ({ name, imageData, description, url }) => {
   return (
     <div className="project-item">
       <div className="image-container">
-        <Image fluid={imageData} alt={name} className="project-img"></Image>
+        <Image fixed={imageData} alt={name} className="project-img"></Image>
       </div>
       <div className="project-item-details">
         <h2 className="project-url">

@@ -7,23 +7,17 @@ html {
   box-sizing: border-box;
 }
 
-.about {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  /* background-color: #202029; */
+.home-container {
   background: linear-gradient(
       -4deg,
-      rgb(40, 5, 5) 0%,
-      rgb(40, 5, 5) 12%,
+      #1b1b1c 0%,
+      #1b1b1c 12%,
       rgb(0, 0, 0, 0) 12%
     ),
     linear-gradient(
       -50deg,
-      rgb(40, 5, 5) 11%,
-      rgb(40, 5, 5) 24%,
+      #1b1b1c 11%,
+      #1b1b1c 24%,
       rgb(0, 0, 0) 24%,
       rgb(0, 0, 0) 29%,
       rgb(0, 0, 0) 29%,
@@ -31,43 +25,50 @@ html {
       rgb(0, 0, 0) 33%,
       rgb(0, 0, 0) 100%
     );
+}
 
-  height: 100vh;
+.home {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  /* background-color: #202029; */
 }
 
 .about-content {
-  grid-area: 3 / 2 / 5 / 6;
+  grid-area: 3 / 2 / 4 / 5;
 }
 
-.description {
-  color: white;
-  font-weight: bold;
+.navigate-down-container {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.navigate-down {
+  cursor: pointer;
 }
 
 .name {
   color: white;
   font-weight: bolder;
-  margin: 1rem;
   font-family: "intro inline";
-  font-size: 60px;
-}
-
-.navigate-down {
-  display: flex;
-  justify-content: center;
-  grid-area: 6 / 2 / 7 / 6;
-  align-items: flex-end;
+  font-size: 3.157em;
 }
 
 .name-container {
-  width: 40rem;
   animation: slideLeft 3s ease;
 }
 
 .description {
   animation: slideUp 3s ease;
-  margin: 1rem;
-  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.333em;
 }
 
 @keyframes slideLeft {
