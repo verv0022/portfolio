@@ -1,9 +1,21 @@
 import React from "react"
 import "./contact.css"
+import ScrollAnimation from "react-animate-on-scroll"
 
 const Contact = () => (
   <div className="contact-container">
     <section className="contact">
+      <div className="contact-title">
+        <ScrollAnimation
+          animateOnce={true}
+          animateIn="slideInLeft"
+          animatePreScroll={false}
+          initiallyVisible={false}
+        >
+          <h2>Contact me</h2>
+        </ScrollAnimation>
+      </div>
+
       <form
         name="contact-form"
         method="post"
