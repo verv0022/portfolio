@@ -12,24 +12,29 @@ const Contact = () => (
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />
-        <div className="field half first">
+        <div className="field">
           <label htmlFor="name">Name</label>
-          <input type="text" name="name" id="name" />
+          <input type="text" name="name" id="name" placeholder="John Smith" />
         </div>
-        <div className="field half">
+        <div className="field">
           <label htmlFor="email">Email</label>
-          <input type="text" name="email" id="email" />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="youremail@domain"
+          />
         </div>
         <div className="field">
           <label htmlFor="message">Message</label>
-          <textarea name="message" id="message" rows="6" />
+          <textarea name="message" id="message" rows="6" placeholder="Hello" />
         </div>
         <ul className="actions">
           <li>
             <input type="submit" value="Send Message" className="special" />
           </li>
           <li>
-            <input type="reset" value="Clear" />
+            <input type="reset" value="Clear" className="special" />
           </li>
         </ul>
       </form>

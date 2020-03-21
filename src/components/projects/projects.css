@@ -15,7 +15,8 @@ html {
   align-items: center;
 }
 .projects {
-  margin: 5rem 6rem;
+  margin: 5rem auto;
+  width: 65%;
 }
 
 .projects-title {
@@ -29,16 +30,8 @@ html {
   display: grid;
   grid-gap: 1rem;
 }
-.image-container {
-  height: 200px;
-  width: 350px;
-}
 
 .project-item {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
   border: white solid 2px;
 }
 
