@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "gatsby-image"
-import "./Projects.css"
+import "./projects.css"
 
 const ProjectPreviewItem = ({ name, imageData, description, url }) => {
   return (
