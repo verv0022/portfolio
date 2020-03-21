@@ -1,5 +1,5 @@
 import React from "react"
-import "./Header.css"
+import "./header.css"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Header = () => {

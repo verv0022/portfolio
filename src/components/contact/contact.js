@@ -5,15 +5,17 @@ const Contact = () => (
   <div className="contact-container">
     <main className="contact">
       <section className="contact-content">
-        <form
-          action="https://formspree.io/your@email.com"
-          method="POST"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-        >
-          <input type="text" name="name" />
-          <input type="email" name="_replyto" />
-          <input type="submit" value="Send" />
+        <form name="Contact Form" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="Contact Form" />
+          <div>
+            <label>Your Email:</label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label>Message:</label>
+            <textarea name="message" />
+          </div>
+          <button type="submit">Send</button>
         </form>
       </section>
     </main>

@@ -1,5 +1,5 @@
 import React from "react"
-import "./Projects.css"
+import "./projects.css"
 import ScrollAnimation from "react-animate-on-scroll"
 import "animate.css/animate.min.css"
 import ProjectPreviewItem from "./project-preview-item"
