@@ -28,7 +28,10 @@ const Home = () => (
       </section>
     </main>
     <section className="navigate-down-container">
-      <div className="navigate-down" onClick={() => scrollTo(".projects")}>
+      <div
+        className="navigate-down"
+        onClick={() => scrollTo(".projects-container")}
+      >
         <ScrollDownArrow />
       </div>
     </section>

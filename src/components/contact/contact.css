@@ -2,3 +2,9 @@
   height: 100vh;
   background-color: cornflowerblue;
 }
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
