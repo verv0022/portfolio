@@ -35,7 +35,7 @@ const Projects = () => {
 
   return (
     <div className="projects-container">
-      <div className="projects">
+      <section className="projects">
         <div className="projects-title">
           <ScrollAnimation
             animateOnce={true}
@@ -59,13 +59,12 @@ const Projects = () => {
             )
           })}
         </section>
-      </div>
-      <div
-        className="navigate-down2"
-        onClick={() => scrollTo(".contact-container")}
-      >
-        <ScrollDownArrow />
-      </div>
+      </section>
+      <section className="navigate-down2">
+        <div onClick={() => scrollTo(".contact-container")}>
+          <ScrollDownArrow />
+        </div>
+      </section>
     </div>
   )
 }

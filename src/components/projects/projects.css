@@ -15,8 +15,8 @@ html {
   align-items: center;
 }
 .projects {
-  margin: 5rem auto;
-  width: 65%;
+  margin: 6rem auto;
+  width: 60%;
 }
 
 .projects-title {
@@ -44,9 +44,14 @@ a {
   cursor: pointer;
 }
 
+.navigate-down-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .navigate-down2 {
-  align-self: center;
-  justify-self: center;
+  cursor: pointer;
 }
 
 @keyframes slideInLeft {
