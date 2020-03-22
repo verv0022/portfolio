@@ -14,17 +14,7 @@ html {
       #1b1b1c 12%,
       rgb(0, 0, 0, 0) 12%
     ),
-    linear-gradient(
-      -50deg,
-      #1b1b1c 11%,
-      #1b1b1c 24%,
-      rgb(0, 0, 0) 24%,
-      rgb(0, 0, 0) 29%,
-      rgb(0, 0, 0) 29%,
-      rgb(0, 0, 0) 33%,
-      rgb(0, 0, 0) 33%,
-      rgb(0, 0, 0) 100%
-    );
+    linear-gradient(to right bottom, #000000 66%, #1b1b1c 65%);
 }
 
 .home {
