@@ -8,13 +8,7 @@ html {
 }
 
 .home-container {
-  background: linear-gradient(
-      -4deg,
-      #1b1b1c 0%,
-      #1b1b1c 12%,
-      rgb(0, 0, 0, 0) 12%
-    ),
-    linear-gradient(to right bottom, #000000 66%, #1b1b1c 65%);
+  background: linear-gradient(to bottom, #000000, #1b1b1c);
 }
 
 .home {
