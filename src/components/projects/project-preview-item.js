@@ -1,18 +1,16 @@
 import React from "react"
 import Image from "gatsby-image"
-import "./projects.css"
+import styles from "./projects.module.css"
 
 const ProjectPreviewItem = ({ name, imageData, description, url }) => {
   return (
-    <div className="project-item">
-      <div className="image-container">
-        <Image fluid={imageData} alt={name} className="project-img"></Image>
-      </div>
-      <div className="project-item-details">
-        <h2 className="project-url">
+    <div className={styles.card}>
+      <Image fluid={imageData} alt={name} className="project-img"></Image>
+      <div className={styles.details}>
+        <h2>
           <a href={url}>{name}</a>
         </h2>
-        <p className="project-description">{description}</p>
+        <p className={styles.description}>{description}</p>
       </div>
     </div>
   )

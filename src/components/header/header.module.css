@@ -2,30 +2,26 @@
   margin: 0 auto;
   padding: 1.5rem;
   position: fixed;
-  display: block;
+
   top: 0;
   width: 100%;
   background-color: #000000;
   border-bottom: #cea335 1px solid;
   opacity: 90%;
   z-index: 1;
-}
-
-.navbar {
   display: flex;
   justify-content: flex-end;
 }
-/* #9C8A6A */
 
-.link-button {
-  font-size: 20px;
+.navigate {
+  font-size: 1rem;
   color: white;
   text-decoration: none;
   background-color: transparent;
   border: none;
   cursor: pointer;
   display: inline;
-  margin: 0px 10px 0 10px;
+  margin: 0px 10px;
   padding: 0;
 }
 

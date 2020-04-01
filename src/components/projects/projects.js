@@ -1,5 +1,5 @@
 import React from "react"
-import "./projects.css"
+import styles from "./projects.module.css"
 import ScrollAnimation from "react-animate-on-scroll"
 import "animate.css/animate.min.css"
 import ProjectPreviewItem from "./project-preview-item"
@@ -34,19 +34,18 @@ const Projects = () => {
   console.log(projects)
 
   return (
-    <div className="projects-container">
-      <section className="projects">
+    <div className={styles.container} id="projects-page">
+      <div className={styles.content}>
         <div className="projects-title">
           <ScrollAnimation
             animateOnce={true}
             animateIn="slideInLeft"
             animatePreScroll={false}
-            initiallyVisible={false}
-          >
-            <h2>Here are some of my projects...</h2>
+            initiallyVisible={false}>
+            <h1 className="title">Recent Projects</h1>
           </ScrollAnimation>
         </div>
-        <section className="project-preview-container">
+        <div className={styles.preview}>
           {projects.map(({ node: project }) => {
             return (
               <ProjectPreviewItem
@@ -58,13 +57,13 @@ const Projects = () => {
               />
             )
           })}
-        </section>
-      </section>
-      <section className="navigate-down2">
-        <div onClick={() => scrollTo(".contact-container")}>
+        </div>
+      </div>
+      <div className={styles.navigate}>
+        <div onClick={() => scrollTo("#contact-page")}>
           <ScrollDownArrow />
         </div>
-      </section>
+      </div>
     </div>
   )
 }

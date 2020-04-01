@@ -1,17 +1,16 @@
-.contact-container {
+.container {
   background-color: #1b1b1c;
   display: flex;
 }
-.contact {
+.content {
   margin: 6rem auto;
   width: 60%;
   color: white;
 }
 .contact-title {
   margin: 2rem 0;
-  font-size: 24px;
 }
-.contact-form {
+form {
   max-width: 500px;
 }
 .field {

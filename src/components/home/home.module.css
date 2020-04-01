@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap");
+
 body,
 html {
   margin: 0;
@@ -7,13 +9,13 @@ html {
   box-sizing: border-box;
 }
 
-.home-container {
+.container {
   background: linear-gradient(to bottom, #000000, #1b1b1c);
   display: flex;
   flex-direction: column;
 }
 
-.home-content {
+.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,32 +25,21 @@ html {
   /* background-color: #202029; */
 }
 
-.navigate-down-container {
+.navigate {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.navigate-down {
   cursor: pointer;
 }
 
-.name {
-  color: white;
-  font-weight: bolder;
-  /* font-family: "intro inline"; */
-  font-size: 3.157em;
-}
-
-.name-container {
+#name {
   animation: slideLeft 3s ease;
 }
 
 .description {
   animation: slideUp 3s ease;
   color: white;
-  font-weight: bold;
   font-size: 1.333em;
 }
 

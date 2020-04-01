@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Titillium+Web:700&display=swap");
 
 * {
   margin: 0;
@@ -9,4 +8,20 @@
 html {
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 16px;
+}
+
+.title {
+  color: white;
+  font-weight: bolder;
+  /* font-family: "intro inline"; */
+  font-size: 3.157rem;
+  font-family: "League Spartan", sans-serif;
+}
+
+.navigate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
 }

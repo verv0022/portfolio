@@ -1,34 +1,29 @@
 import React from "react"
-import "./contact.css"
+import styles from "./contact.module.css"
 import ScrollAnimation from "react-animate-on-scroll"
 
 const Contact = () => (
-  <div className="contact-container">
-    <section className="contact">
-      <div className="contact-title">
-        <ScrollAnimation
-          animateOnce={true}
-          animateIn="slideInLeft"
-          animatePreScroll={false}
-          initiallyVisible={false}
-        >
-          <h2>Contact me</h2>
-        </ScrollAnimation>
-      </div>
-
+  <div className={styles.container} id="contact-page">
+    <section className={styles.content}>
+      <ScrollAnimation
+        animateOnce={true}
+        animateIn="slideInLeft"
+        animatePreScroll={false}
+        initiallyVisible={false}>
+        <h1 className="title">Contact me</h1>
+      </ScrollAnimation>
       <form
         name="contact-form"
-        method="post"
+        method="POST"
         data-netlify="true"
-        data-netlify-honeypot="bot-field"
-      >
+        data-netlify-honeypot="bot-field">
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />
-        <div className="field">
+        <div className={styles.field}>
           <label htmlFor="name">Name</label>
           <input type="text" name="name" id="name" placeholder="John Smith" />
         </div>
-        <div className="field">
+        <div className={styles.field}>
           <label htmlFor="email">Email</label>
           <input
             type="text"
@@ -37,11 +32,11 @@ const Contact = () => (
             placeholder="youremail@domain"
           />
         </div>
-        <div className="field">
+        <div className={styles.field}>
           <label htmlFor="message">Message</label>
           <textarea name="message" id="message" rows="6" placeholder="Hello" />
         </div>
-        <ul className="actions">
+        <ul className={styles.actions}>
           <li>
             <input type="submit" value="Send Message" className="special" />
           </li>

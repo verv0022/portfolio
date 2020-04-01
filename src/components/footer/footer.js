@@ -1,15 +1,13 @@
 import React from "react"
-import "./footer.css"
+import styles from "./footer.module.css"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import { FaChevronUp } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <footer className="footer-container">
-      <div className="footer">
-        <div className="up-arrow" onClick={() => scrollTo(".home-container")}>
-          <FaChevronUp />
-        </div>
+    <footer className={styles.container}>
+      <div className={styles.navigate} onClick={() => scrollTo("#home-page")}>
+        <FaChevronUp />
       </div>
     </footer>
   )

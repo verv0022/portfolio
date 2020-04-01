@@ -1,27 +1,24 @@
 import React from "react"
-import "./header.css"
+import styles from "./header.module.css"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Header = () => {
   return (
-    <header className="header">
-      <div className="navbar">
+    <header className={styles.header}>
+      <div className={styles.navbar}>
         <button
-          onClick={() => scrollTo(".home-container")}
-          className="link-button"
-        >
+          onClick={() => scrollTo("#home-page")}
+          className={styles.navigate}>
           Home
         </button>
         <button
-          onClick={() => scrollTo(".projects-container")}
-          className="link-button"
-        >
+          onClick={() => scrollTo("#projects-page")}
+          className={styles.navigate}>
           Projects
         </button>
         <button
           onClick={() => scrollTo(".contact-container")}
-          className="link-button"
-        >
+          className={styles.navigate}>
           Contact
         </button>
       </div>

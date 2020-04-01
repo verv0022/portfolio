@@ -1,5 +1,5 @@
 import React from "react"
-import "./home.css"
+import styles from "./home.module.css"
 import ScrollDownArrow from "../scroll-down-arrow/scroll-down-arrow"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
@@ -8,12 +8,12 @@ const highlight = {
 }
 
 const Home = () => (
-  <div className="home-container">
-    <section className="home-content">
-      <h1 className="name">
+  <div className={styles.container} id="home-page">
+    <div className={styles.content}>
+      <h1 id={styles.name} className="title">
         Hi, I'm <span style={highlight}>Brandon</span>{" "}
       </h1>
-      <p className="description">
+      <p className={styles.description}>
         I'm a <span style={highlight}>developer</span> and{" "}
         <span style={highlight}>UX designer</span> with experience in{" "}
         <span style={highlight}>mobile</span> and{" "}
@@ -22,15 +22,18 @@ const Home = () => (
         am currently seeking an <span style={highlight}>entry level </span>
         position.
       </p>
-    </section>
-    <section className="navigate-down-container">
-      <div
-        className="navigate-down"
-        onClick={() => scrollTo(".projects-container")}
-      >
+      <div>
+        <a
+          href={`https://drive.google.com/file/d/1EqlVAOuj1T2tKD0WQjvxhOH7N14BO_ld/view`}>
+          Resume
+        </a>
+      </div>
+    </div>
+    <div className={styles.navigate}>
+      <div className="navigate-down" onClick={() => scrollTo("#projects-page")}>
         <ScrollDownArrow />
       </div>
-    </section>
+    </div>
   </div>
 )
 

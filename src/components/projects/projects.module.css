@@ -7,35 +7,28 @@ html {
   box-sizing: border-box;
 }
 
-.projects-container {
+.container {
   background-color: #1b1b1c;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.projects {
+.content {
   margin: 6rem auto;
   width: 60%;
 }
 
-.projects-title {
-  font-size: 24px;
-  color: white;
-  margin-bottom: 2rem;
-  align-self: flex-start;
-}
-
-.project-preview-container {
+.preview {
   display: grid;
   grid-gap: 1rem;
 }
 
-.project-item {
+.card {
   border: white solid 2px;
 }
 
-.project-item-details {
+.details {
   padding: 10px;
   color: white;
 }
@@ -44,13 +37,11 @@ a {
   cursor: pointer;
 }
 
-.navigate-down-container {
+.navigate {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.navigate-down2 {
   cursor: pointer;
 }
 
@@ -68,22 +59,19 @@ a {
 }
 
 @media (max-width: 899px) {
-  .project-preview-container {
+  .preview {
     grid-template-columns: repeat(1, 1fr);
-  }
-  .projects-title {
-    font-size: 16px;
   }
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
-  .project-preview-container {
+  .preview {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1300px) {
-  .project-preview-container {
+  .preview {
     grid-template-columns: repeat(3, 1fr);
   }
 }
