@@ -4,7 +4,7 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Header = () => {
   return (
-    <header className={styles.header}>
+    <div className={styles.header}>
       <div className={styles.navbar}>
         <button
           onClick={() => scrollTo("#home-page")}
@@ -27,7 +27,7 @@ const Header = () => {
           Contact
         </button>
       </div>
-    </header>
+    </div>
   )
 }
 
