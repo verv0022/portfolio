@@ -10,7 +10,9 @@ html {
 }
 
 .container {
-  background: linear-gradient(to bottom, #000000, #1b1b1c);
+  /* background: linear-gradient(to bottom, #000000, #1b1b1c); */
+  background-color: #232834;
+  /* background-color: rgb(24, 25, 26); */
   display: flex;
   flex-direction: column;
 }
@@ -41,6 +43,17 @@ html {
   animation: slideUp 3s ease;
   color: white;
   font-size: 1.333em;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 1rem 1rem 0;
+}
+.icon {
+  fill: white;
+  color: white;
+  height: 50px;
+  margin: 1rem 2rem 2rem 0;
 }
 
 @keyframes slideLeft {

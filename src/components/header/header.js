@@ -12,12 +12,17 @@ const Header = () => {
           Home
         </button>
         <button
+          onClick={() => scrollTo("#toolset-page")}
+          className={styles.navigate}>
+          Toolset
+        </button>
+        <button
           onClick={() => scrollTo("#projects-page")}
           className={styles.navigate}>
           Projects
         </button>
         <button
-          onClick={() => scrollTo(".contact-container")}
+          onClick={() => scrollTo("#contact-page")}
           className={styles.navigate}>
           Contact
         </button>

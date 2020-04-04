@@ -7,7 +7,7 @@ import "animate.css/animate.min.css"
 
 const Toolset = () => {
   return (
-    <div className={styles.container} id="home-page">
+    <div className={styles.container} id="toolset-page">
       <div className={styles.content}>
         <ScrollAnimation
           animateOnce={true}

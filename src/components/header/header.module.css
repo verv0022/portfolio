@@ -5,8 +5,9 @@
 
   top: 0;
   width: 100%;
-  background-color: #000000;
-  border-bottom: #cea335 1px solid;
+  background-color: black;
+  /* border-bottom: #cea335 3px solid; */
+  box-shadow: 0px 0px 8px 2px black;
   opacity: 90%;
   z-index: 1;
   display: flex;
@@ -15,7 +16,6 @@
 
 .navigate {
   font-size: 1rem;
-  color: white;
   text-decoration: none;
   background-color: transparent;
   border: none;
@@ -23,6 +23,7 @@
   display: inline;
   margin: 0px 10px;
   padding: 0;
+  color: white;
 }
 
 .link-button:hover {

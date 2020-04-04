@@ -2,6 +2,9 @@ import React from "react"
 import styles from "./home.module.css"
 import ScrollDownArrow from "../scroll-down-arrow/scroll-down-arrow"
 import scrollTo from "gatsby-plugin-smoothscroll"
+import pdf from "./icons/pdf.svg"
+import github from "./icons/github.svg"
+import linkedin from "./icons/linkedin.svg"
 
 const highlight = {
   color: "#CEA335",
@@ -22,10 +25,21 @@ const Home = () => (
         am currently seeking an <span style={highlight}>entry level </span>
         position.
       </p>
-      <div>
+      <div className={styles.icons}>
         <a
           href={`https://drive.google.com/file/d/1EqlVAOuj1T2tKD0WQjvxhOH7N14BO_ld/view`}>
-          Resume
+          <img src={pdf} alt="Resume" height="50" className={styles.icon} />
+        </a>
+        <a href={`https://github.com/verv0022`}>
+          <img src={github} alt="Github" height="50" className={styles.icon} />
+        </a>
+        <a href={`https://www.linkedin.com/in/brandonwv/`}>
+          <img
+            src={linkedin}
+            alt="LinkedIn"
+            height="50"
+            className={styles.icon}
+          />
         </a>
       </div>
     </div>
