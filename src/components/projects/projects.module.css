@@ -8,7 +8,7 @@ html {
 }
 
 .container {
-  background-color: #1b1b1c;
+  background-color: #232834;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,14 +34,6 @@ html {
 }
 a {
   color: white;
-  cursor: pointer;
-}
-
-.navigate {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   cursor: pointer;
 }
 

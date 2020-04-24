@@ -12,17 +12,15 @@ const Toolset = () => {
         <ScrollAnimation
           animateOnce={true}
           animateIn="slideInLeft"
-          animatePreScroll={false}
+          animatePreScroll={true}
           initiallyVisible={false}>
           <h1 className="title">Toolset</h1>
         </ScrollAnimation>
         <p>Here are some tools and technologies I have experience with: </p>
       </div>
-      <div className={styles.navigate}>
-        <div className="navigate" onClick={() => scrollTo("#projects-page")}>
-          <ScrollDownArrow />
-        </div>
-      </div>
+      <button className="navigate" onClick={() => scrollTo("#projects-page")}>
+        <ScrollDownArrow />
+      </button>
     </div>
   )
 }

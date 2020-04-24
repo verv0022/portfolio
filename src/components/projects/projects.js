@@ -40,7 +40,6 @@ const Projects = () => {
           <ScrollAnimation
             animateOnce={true}
             animateIn="slideInLeft"
-            animatePreScroll={false}
             initiallyVisible={false}>
             <h1 className="title">Recent Projects</h1>
           </ScrollAnimation>
@@ -59,11 +58,9 @@ const Projects = () => {
           })}
         </div>
       </div>
-      <div className={styles.navigate}>
-        <div onClick={() => scrollTo("#contact-page")}>
-          <ScrollDownArrow />
-        </div>
-      </div>
+      <button className="navigate" onClick={() => scrollTo("#contact-page")}>
+        <ScrollDownArrow />
+      </button>
     </div>
   )
 }

@@ -5,6 +5,8 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 import pdf from "./icons/pdf.svg"
 import github from "./icons/github.svg"
 import linkedin from "./icons/linkedin.svg"
+import ScrollAnimation from "react-animate-on-scroll"
+import "animate.css/animate.min.css"
 
 const highlight = {
   color: "#CEA335",
@@ -26,6 +28,10 @@ const Home = () => (
         position.
       </p>
       <div className={styles.icons}>
+        {/* <ScrollAnimation
+          animateOnce={true}
+          animateIn="bounceInUp"
+          animatePreScroll={false}> */}
         <a
           href={`https://drive.google.com/file/d/1EqlVAOuj1T2tKD0WQjvxhOH7N14BO_ld/view`}>
           <img src={pdf} alt="Resume" height="50" className={styles.icon} />
@@ -41,13 +47,13 @@ const Home = () => (
             className={styles.icon}
           />
         </a>
+        {/* </ScrollAnimation> */}
       </div>
     </div>
-    <div className={styles.navigate}>
-      <div className="navigate-down" onClick={() => scrollTo("#projects-page")}>
-        <ScrollDownArrow />
-      </div>
-    </div>
+
+    <button className="navigate" onClick={() => scrollTo("#projects-page")}>
+      <ScrollDownArrow />
+    </button>
   </div>
 )
 
