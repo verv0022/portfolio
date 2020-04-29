@@ -34,7 +34,7 @@ const Projects = () => {
   console.log(projects)
 
   return (
-    <div className={styles.container} id="projects-page">
+    <div className="container" id="projects-page">
       <div className={styles.content}>
         <div className="projects-title">
           <ScrollAnimation

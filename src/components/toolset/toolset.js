@@ -4,10 +4,25 @@ import ScrollDownArrow from "../scroll-down-arrow/scroll-down-arrow"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import ScrollAnimation from "react-animate-on-scroll"
 import "animate.css/animate.min.css"
+import html from "./icons/html.svg"
+import ai from "./icons/ai.svg"
+import bootstrap from "./icons/bootstrap.svg"
+import csharp from "./icons/c#.svg"
+import cplusplus from "./icons/c++.svg"
+import css from "./icons/css.svg"
+import gatsby from "./icons/gatsby.svg"
+import git from "./icons/git.svg"
+import js from "./icons/js.svg"
+import kotlin from "./icons/kotlin.svg"
+import ps from "./icons/ps.svg"
+import react from "./icons/react.svg"
+import sass from "./icons/sass.svg"
+import swift from "./icons/swift.svg"
+import xd from "./icons/xd.svg"
 
 const Toolset = () => {
   return (
-    <div className={styles.container} id="toolset-page">
+    <div className="container" id="toolset-page">
       <div className={styles.content}>
         <ScrollAnimation
           animateOnce={true}
@@ -17,10 +32,29 @@ const Toolset = () => {
           <h1 className="title">Toolset</h1>
         </ScrollAnimation>
         <p>Here are some tools and technologies I have experience with: </p>
+        <div className={styles.tools}>
+          <img src={html} alt="html" height="100"></img>
+          <img src={css} alt="css" height="100"></img>
+          <img src={js} alt="js" height="100"></img>
+          <img src={sass} alt="html" height="100"></img>
+          <img src={bootstrap} alt="html" height="100"></img>
+          <img src={react} alt="html" height="100"></img>
+          <img src={gatsby} alt="html" height="100"></img>
+          <img src={ps} alt="html" height="100"></img>
+          <img src={ai} alt="html" height="100"></img>
+          <img src={xd} alt="html" height="100"></img>
+          <img src={git} alt="html" height="100"></img>
+          <img src={swift} alt="html" height="100"></img>
+          <img src={kotlin} alt="html" height="100"></img>
+          <img src={cplusplus} alt="html" height="100"></img>
+          <img src={csharp} alt="html" height="100"></img>
+        </div>
       </div>
-      <button className="navigate" onClick={() => scrollTo("#projects-page")}>
-        <ScrollDownArrow />
-      </button>
+      <div className={styles.test}>
+        <button className="navigate" onClick={() => scrollTo("#projects-page")}>
+          <ScrollDownArrow />
+        </button>
+      </div>
     </div>
   )
 }

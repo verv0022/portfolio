@@ -1,6 +1,10 @@
 .container {
   background-color: #232834;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 .content {
   margin: 6rem auto;

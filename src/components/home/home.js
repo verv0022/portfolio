@@ -5,7 +5,6 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 import pdf from "./icons/pdf.svg"
 import github from "./icons/github.svg"
 import linkedin from "./icons/linkedin.svg"
-import ScrollAnimation from "react-animate-on-scroll"
 import "animate.css/animate.min.css"
 
 const highlight = {
@@ -13,7 +12,7 @@ const highlight = {
 }
 
 const Home = () => (
-  <div className={styles.container} id="home-page">
+  <div className="container" id="home-page">
     <div className={styles.content}>
       <h1 id={styles.name} className="title">
         Hi, I'm <span style={highlight}>Brandon</span>{" "}
@@ -51,7 +50,7 @@ const Home = () => (
       </div>
     </div>
 
-    <button className="navigate" onClick={() => scrollTo("#projects-page")}>
+    <button className="navigate" onClick={() => scrollTo("#toolset-page")}>
       <ScrollDownArrow />
     </button>
   </div>

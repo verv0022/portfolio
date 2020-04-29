@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll"
 
 const Contact = () => (
   <div className={styles.container} id="contact-page">
-    <section className={styles.content}>
+    <div className={styles.content}>
       <ScrollAnimation
         animateOnce={true}
         animateIn="slideInLeft"
@@ -45,7 +45,7 @@ const Contact = () => (
           </li>
         </ul>
       </form>
-    </section>
+    </div>
   </div>
 )
 
