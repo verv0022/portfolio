@@ -8,16 +8,18 @@ html {
 }
 
 .content {
-  margin: 6rem auto;
+  margin:6rem auto;
   width: 60%;
   display: flex;
   flex-direction: column;
+
 }
 
 .tools {
   display: grid;
   grid-gap: 20px;
-  margin: 6rem 0 6rem 0;
+  margin:6rem 0 4rem 0rem;
+ 
 }
 img {
   justify-self: center;

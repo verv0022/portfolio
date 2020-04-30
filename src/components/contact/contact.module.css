@@ -11,10 +11,9 @@
   width: 60%;
   color: white;
 }
-.contact-title {
-  margin: 2rem 0;
-}
+
 form {
+  margin:2rem 0;
   max-width: 500px;
 }
 .field {
