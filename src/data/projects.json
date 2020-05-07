@@ -1,15 +1,15 @@
 [
   {
-    "name": "My Project",
-    "url": "https://github.com",
+    "name": "Restaurant Finder",
+    "url": "https://github.com/verv0022/yelp-restaurant-finder",
     "image": "./images/yelp.png",
-    "description": "I built this with gatsby"
+    "description": "A mobile application for finding nearby restaurants."
   },
   {
-    "name": "Another Project",
-    "url": "https://github.com",
+    "name": "CBSA Helper",
+    "url": "https://github.com/rign0002/GenTeque",
     "image": "./images/yelp.png",
-    "description": "I built this with gatsby also"
+    "description": "A voice assistant I helped design for the CBSA."
   },
   {
     "name": "My Project",

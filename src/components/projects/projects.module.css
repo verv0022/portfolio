@@ -8,18 +8,27 @@ html {
 }
 
 .content {
-  margin: 6rem auto 2rem auto;
+  margin: 4rem auto 2rem auto;
   width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .preview {
   display: grid;
-  grid-gap: 1rem;
-  margin:2rem auto;
+  grid-gap: 2rem;
+  margin: 2rem auto 1rem auto;
 }
 
 .card {
-  border: white solid 2px;
+  box-shadow: 3px 3px 4px #181717;
+  width: 280px;
+  background-color: #181717;
+}
+
+.details {
+  text-align: left;
 }
 
 .details {
@@ -29,6 +38,9 @@ html {
 a {
   color: white;
   cursor: pointer;
+}
+a:hover {
+  color: #cea335;
 }
 
 @keyframes slideInLeft {

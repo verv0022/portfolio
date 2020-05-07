@@ -35,15 +35,17 @@ const Projects = () => {
 
   return (
     <div className="container" id="projects-page">
-      <div className={styles.content}>
-        <div className="projects-title">
-          <ScrollAnimation
-            animateOnce={true}
-            animateIn="slideInLeft"
-            initiallyVisible={false}>
-            <h1 className="title">Recent Projects</h1>
-          </ScrollAnimation>
-        </div>
+      <div className="content">
+        <ScrollAnimation
+          animateOnce={true}
+          animateIn="slideInLeft"
+          initiallyVisible={false}>
+          <h1 className="title">Recent Projects</h1>
+        </ScrollAnimation>
+        <p className="description">
+          These are some projects that I've worked on
+        </p>
+
         <div className={styles.preview}>
           {projects.map(({ node: project }) => {
             return (

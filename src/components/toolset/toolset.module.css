@@ -7,19 +7,10 @@ html {
   box-sizing: border-box;
 }
 
-.content {
-  margin:6rem auto;
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-
-}
-
 .tools {
   display: grid;
-  grid-gap: 20px;
-  margin:6rem 0 4rem 0rem;
- 
+  grid-gap: 40px;
+  margin: 2rem 0rem 4rem 0rem;
 }
 img {
   justify-self: center;

@@ -5,6 +5,7 @@ import Projects from "../components/projects/projects.js"
 import Contact from "../components/contact/contact.js"
 import Footer from "../components/footer/footer.js"
 import Toolset from "../components/toolset/toolset.js"
+
 require("typeface-league-spartan")
 
 const IndexPage = () => (

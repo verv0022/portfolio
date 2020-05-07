@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll"
 
 const Contact = () => (
   <div className={styles.container} id="contact-page">
-    <div className={styles.content}>
+    <div className="content">
       <ScrollAnimation
         animateOnce={true}
         animateIn="slideInLeft"
@@ -12,6 +12,7 @@ const Contact = () => (
         initiallyVisible={false}>
         <h1 className="title">Contact me</h1>
       </ScrollAnimation>
+      <p className="description">Let's get in touch</p>
       <form
         name="contact-form"
         method="POST"

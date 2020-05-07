@@ -1,15 +1,23 @@
-
 .down-arrow {
-    color:white;
-    font-size: 3rem;
-    animation: bounce 2s infinite;
+  color: white;
+  font-size: 3rem;
+  animation: bounce 2s infinite;
+  margin: 20px;
 }
 
-.down-arrow:hover{
-    animation: none;
+.down-arrow:hover {
+  animation: none;
 }
 
 @keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-15px);}
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
 }

@@ -14,8 +14,8 @@ html {
   flex-direction: column;
   justify-content: center;
   height: 90vh;
-  margin: 1rem auto;
   width: 60%;
+  margin: 2rem auto 1rem auto;
   /* background-color: #202029; */
 }
 
@@ -26,7 +26,7 @@ html {
 .description {
   animation: slideUp 2s ease;
   color: white;
-  font-size: 1.333em;
+  font-size: 1.333rem;
 }
 .icons {
   display: flex;
@@ -82,7 +82,7 @@ html {
   }
 
   60% {
-    opacity: 1;
+    opacity: 0;
     -webkit-transform: translate3d(0, -20px, 0);
     transform: translate3d(0, -20px, 0);
   }

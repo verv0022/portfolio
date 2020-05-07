@@ -23,7 +23,7 @@ import xd from "./icons/xd.svg"
 const Toolset = () => {
   return (
     <div className="container" id="toolset-page">
-      <div className={styles.content}>
+      <div className="content">
         <ScrollAnimation
           animateOnce={true}
           animateIn="slideInLeft"
@@ -31,23 +31,25 @@ const Toolset = () => {
           initiallyVisible={false}>
           <h1 className="title">Toolset</h1>
         </ScrollAnimation>
-        <p>Here are some tools and technologies I have experience with: </p>
+        <p className="description">
+          Here are some of the tools and technologies I have experience with{" "}
+        </p>
         <div className={styles.tools}>
-          <img src={html} alt="html" height="100"></img>
-          <img src={css} alt="css" height="100"></img>
-          <img src={js} alt="js" height="100"></img>
-          <img src={sass} alt="html" height="100"></img>
-          <img src={bootstrap} alt="html" height="100"></img>
-          <img src={react} alt="html" height="100"></img>
-          <img src={gatsby} alt="html" height="100"></img>
-          <img src={ps} alt="html" height="100"></img>
-          <img src={ai} alt="html" height="100"></img>
-          <img src={xd} alt="html" height="100"></img>
-          <img src={git} alt="html" height="100"></img>
-          <img src={swift} alt="html" height="100"></img>
-          <img src={kotlin} alt="html" height="100"></img>
-          <img src={cplusplus} alt="html" height="100"></img>
-          <img src={csharp} alt="html" height="100"></img>
+          <img src={html} alt="html" height="120"></img>
+          <img src={css} alt="css" height="120"></img>
+          <img src={js} alt="js" height="120"></img>
+          <img src={sass} alt="html" height="120"></img>
+          <img src={bootstrap} alt="html" height="120"></img>
+          <img src={react} alt="html" height="120"></img>
+          <img src={gatsby} alt="html" height="120"></img>
+          <img src={ps} alt="html" height="120"></img>
+          <img src={ai} alt="html" height="120"></img>
+          <img src={xd} alt="html" height="120"></img>
+          <img src={git} alt="html" height="120"></img>
+          <img src={swift} alt="html" height="120"></img>
+          <img src={kotlin} alt="html" height="120"></img>
+          <img src={cplusplus} alt="html" height="120"></img>
+          <img src={csharp} alt="html" height="120"></img>
         </div>
       </div>
       <div className={styles.test}>
