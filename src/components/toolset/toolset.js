@@ -26,31 +26,38 @@ const Toolset = () => {
       <div className="content">
         <ScrollAnimation
           animateOnce={true}
-          animateIn="slideInLeft"
+          animateIn="fadeIn"
           animatePreScroll={true}
           initiallyVisible={false}>
           <h1 className="title">Toolset</h1>
+
+          <p className="description">
+            Here are some of the tools and technologies I have experience with
+          </p>
         </ScrollAnimation>
-        <p className="description">
-          Here are some of the tools and technologies I have experience with{" "}
-        </p>
-        <div className={styles.tools}>
-          <img src={html} alt="html" height="120"></img>
-          <img src={css} alt="css" height="120"></img>
-          <img src={js} alt="js" height="120"></img>
-          <img src={sass} alt="html" height="120"></img>
-          <img src={bootstrap} alt="html" height="120"></img>
-          <img src={react} alt="html" height="120"></img>
-          <img src={gatsby} alt="html" height="120"></img>
-          <img src={ps} alt="html" height="120"></img>
-          <img src={ai} alt="html" height="120"></img>
-          <img src={xd} alt="html" height="120"></img>
-          <img src={git} alt="html" height="120"></img>
-          <img src={swift} alt="html" height="120"></img>
-          <img src={kotlin} alt="html" height="120"></img>
-          <img src={cplusplus} alt="html" height="120"></img>
-          <img src={csharp} alt="html" height="120"></img>
-        </div>
+        <ScrollAnimation
+          animateOnce={true}
+          animateIn="fadeIn"
+          animatePreScroll={true}
+          initiallyVisible={false}>
+          <div className={styles.tools}>
+            <img src={html} alt="html" height="120"></img>
+            <img src={css} alt="css" height="120"></img>
+            <img src={js} alt="js" height="120"></img>
+            <img src={sass} alt="html" height="120"></img>
+            <img src={bootstrap} alt="html" height="120"></img>
+            <img src={react} alt="html" height="120"></img>
+            <img src={gatsby} alt="html" height="120"></img>
+            <img src={ps} alt="html" height="120"></img>
+            <img src={ai} alt="html" height="120"></img>
+            <img src={xd} alt="html" height="120"></img>
+            <img src={git} alt="html" height="120"></img>
+            <img src={swift} alt="html" height="120"></img>
+            <img src={kotlin} alt="html" height="120"></img>
+            <img src={cplusplus} alt="html" height="120"></img>
+            <img src={csharp} alt="html" height="120"></img>
+          </div>
+        </ScrollAnimation>
       </div>
       <div className={styles.test}>
         <button className="navigate" onClick={() => scrollTo("#projects-page")}>

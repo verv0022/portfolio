@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Titillium+Web:700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ html {
 
 .container {
   /* background: linear-gradient(to bottom, #000000, #1b1b1c); */
-  background-color: #232834;
+  background-color: #1c212b;
   /* background-color: rgb(24, 25, 26); */
   display: flex;
   flex-direction: column;

@@ -1,5 +1,5 @@
 .container {
-  background-color: hsl(222, 20%, 17%);
+  background-color: #1c212b;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +27,7 @@ label {
 input {
   margin: 4px;
   padding: 5px;
-  background-color: #232834;
+  background-color: #1c212b;
   border: none;
   border-bottom: 1px solid white;
   color: white;
@@ -37,7 +37,7 @@ label {
 }
 textarea {
   padding: 5px;
-  background-color: #232834;
+  background-color: #1c212b;
   border: 1px solid white;
   color: white;
 }

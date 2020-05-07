@@ -38,7 +38,7 @@ const Projects = () => {
       <div className="content">
         <ScrollAnimation
           animateOnce={true}
-          animateIn="slideInLeft"
+          animateIn="fadeIn"
           initiallyVisible={false}>
           <h1 className="title">Recent Projects</h1>
         </ScrollAnimation>
