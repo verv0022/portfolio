@@ -43,15 +43,19 @@ html {
   padding: 10px;
   color: white;
   text-align: left;
+  text-decoration: none;
+}
+.description {
+  text-decoration: none;
 }
 a {
   color: white;
   cursor: pointer;
   text-decoration-color: #cea335;
 }
-a:hover {
+/* a:hover {
   color: #cea335;
-}
+} */
 
 @keyframes slideInLeft {
   from {

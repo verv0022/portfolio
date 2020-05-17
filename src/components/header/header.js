@@ -1,8 +1,9 @@
 import React from "react"
 import styles from "./header.module.css"
 import scrollTo from "gatsby-plugin-smoothscroll"
+import HamburgerButton from "./hamburger-button"
 
-const Header = () => {
+const Header = props => {
   return (
     <div className={styles.header}>
       <div className={styles.navbar}>
@@ -26,6 +27,9 @@ const Header = () => {
           className={styles.navigate}>
           Contact
         </button>
+      </div>
+      <div className={styles.hamburger_btn}>
+        <HamburgerButton click={props.hamburgerClickHandler} />
       </div>
     </div>
   )

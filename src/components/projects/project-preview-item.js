@@ -13,7 +13,9 @@ const ProjectPreviewItem = ({ name, imageData, description, url }) => {
           <h2>
             <a href={url}>{name}</a>
           </h2>
-          <p>{description}</p>
+          <a className={styles.description} href={url}>
+            <p>{description}</p>
+          </a>
         </div>
       </div>
     </div>

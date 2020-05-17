@@ -8,6 +8,11 @@
 html {
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 16px;
+  height: 100%;
+}
+
+body {
+  height: 100%;
 }
 
 .container {
@@ -53,4 +58,39 @@ html {
 .description {
   margin: 0.5rem 0;
   font-size: 1.333rem;
+}
+
+.side_bar {
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 0px 5px black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 3;
+  transform: translateX(200%);
+  transition: transform 0.3s ease;
+}
+.side_bar.show {
+  transform: translateX(0);
+}
+
+.side_bar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.side_bar a {
+  text-decoration: none;
+}
+
+@media (min-width: 900px) {
+  .side_bar {
+    display: none;
+  }
 }

@@ -31,8 +31,6 @@ const Projects = () => {
   `)
   const projects = data.allProjectsJson.edges
 
-  console.log(projects)
-
   return (
     <div className="container" id="projects-page">
       <div className="content">
@@ -45,7 +43,6 @@ const Projects = () => {
         <p className="description">
           These are some projects that I've worked on
         </p>
-
         <div className={styles.preview}>
           {projects.map(({ node: project }) => {
             return (
