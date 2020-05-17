@@ -32,7 +32,7 @@ const Toolset = () => {
           <h1 className="title">Toolset</h1>
 
           <p className="description">
-            Here are some of the tools and technologies I have experience with
+            Here are some of the tools and technologies I have experience with:
           </p>
         </ScrollAnimation>
         <ScrollAnimation

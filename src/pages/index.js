@@ -35,7 +35,10 @@ class IndexPage extends React.Component {
     return (
       <div style={{ height: "100%" }}>
         <Header hamburgerClickHandler={this.hamburgerClickHandler} />
-        <Sidebar show={this.state.isSidebarOpen} />
+        <Sidebar
+          show={this.state.isSidebarOpen}
+          hide={this.hamburgerClickHandler}
+        />
         {backdrop}
         <Home />
         <Toolset />

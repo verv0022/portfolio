@@ -28,7 +28,7 @@ const Header = props => {
           Contact
         </button>
       </div>
-      <div className={styles.hamburger_btn}>
+      <div className={styles.hamburgerButton}>
         <HamburgerButton click={props.hamburgerClickHandler} />
       </div>
     </div>

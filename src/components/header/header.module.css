@@ -1,6 +1,6 @@
 .header {
   margin: 0 auto;
-  padding: 1.5rem;
+  height: 80px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -10,6 +10,10 @@
   z-index: 1;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+.navbar {
+  margin: 0 10px;
 }
 
 .navigate {
@@ -32,7 +36,7 @@
   text-decoration: none;
 }
 
-.toggle_button {
+.hamburger {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -44,11 +48,13 @@
   padding: 0;
   box-shadow: border-box;
 }
-.toggle_button:focus {
+.hamburger:focus {
   outline: none;
 }
-
-.toggle_button_line {
+.hamburgerButton {
+  margin: 10px;
+}
+.line {
   width: 30px;
   height: 3px;
   background: white;
@@ -59,7 +65,7 @@
   }
 }
 @media (min-width: 900px) {
-  .hamburger_btn {
+  .hamburgerButton {
     display: none;
   }
 }

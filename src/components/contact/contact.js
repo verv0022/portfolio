@@ -12,7 +12,7 @@ const Contact = () => (
         initiallyVisible={false}>
         <h1 className="title">Contact me</h1>
       </ScrollAnimation>
-      <p className="description">Let's get in touch</p>
+      <p className="description">Let's get in touch!</p>
       <form
         name="contact-form"
         method="POST"
