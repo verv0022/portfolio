@@ -37,29 +37,51 @@ const Projects = () => {
         <ScrollAnimation
           animateOnce={true}
           animateIn="fadeIn"
-          initiallyVisible={false}>
+          initiallyVisible={false}
+          duration="3">
           <h1 className="title">Recent Projects</h1>
         </ScrollAnimation>
-        <p className="description">
-          These are some projects that I've worked on:
-        </p>
-        <div className={styles.preview}>
-          {projects.map(({ node: project }) => {
-            return (
-              <ProjectPreviewItem
-                key={project.id}
-                name={project.name}
-                description={project.description}
-                imageData={project.image.childImageSharp.fluid}
-                url={project.url}
-              />
-            )
-          })}
-        </div>
+        <ScrollAnimation
+          animateOnce={true}
+          animateIn="fadeIn"
+          initiallyVisible={false}
+          duration="3"
+          delay="100">
+          <p className="description">
+            These are some projects that I've worked on:
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateOnce={true}
+          animateIn="fadeIn"
+          initiallyVisible={false}
+          duration="3"
+          delay="300">
+          <div className={styles.preview}>
+            {projects.map(({ node: project }) => {
+              return (
+                <ProjectPreviewItem
+                  key={project.id}
+                  name={project.name}
+                  description={project.description}
+                  imageData={project.image.childImageSharp.fluid}
+                  url={project.url}
+                />
+              )
+            })}
+          </div>
+        </ScrollAnimation>
       </div>
-      <button className="navigate" onClick={() => scrollTo("#contact-page")}>
-        <ScrollDownArrow />
-      </button>
+      <ScrollAnimation
+        animateOnce={true}
+        animateIn="fadeIn"
+        initiallyVisible={false}
+        duration="3"
+        delay="100">
+        <button className="navigate" onClick={() => scrollTo("#contact-page")}>
+          <ScrollDownArrow />
+        </button>
+      </ScrollAnimation>
     </div>
   )
 }

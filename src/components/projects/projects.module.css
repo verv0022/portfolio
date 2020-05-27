@@ -74,6 +74,9 @@ a {
   .preview {
     grid-template-columns: repeat(1, 1fr);
   }
+  .card {
+    width: 200px;
+  }
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {

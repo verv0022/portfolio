@@ -16,19 +16,6 @@
   margin: 0 10px;
 }
 
-.navigate {
-  font-size: 1.333rem;
-  text-decoration: none;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  display: inline;
-  margin: 0px 10px;
-  padding: 0;
-  color: white;
-  outline: none;
-}
-
 .navigate:hover {
   color: #cea335;
 }

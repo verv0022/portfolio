@@ -13,6 +13,7 @@
   background-color: #2b3038;
   color: white;
 }
+
 .sidebar.show {
   transform: translateX(0);
 }
@@ -21,13 +22,28 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
+  text-align: center;
 }
 
 .sidebar a {
   text-decoration: none;
+}
+
+.sidebar li {
+  border-bottom: solid white 1px;
+}
+
+.sidebar li:hover {
+  background-color: #cea335;
+}
+
+/* .sidebar li:first-child {
+  border-top: solid white 1px;
+} */
+
+.sidebar button {
+  margin: 10px 0;
+  font-size: 1.777rem;
 }
 
 /* @media (min-width: 900px) {

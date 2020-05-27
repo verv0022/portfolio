@@ -7,24 +7,16 @@ const Header = props => {
   return (
     <div className={styles.header}>
       <div className={styles.navbar}>
-        <button
-          onClick={() => scrollTo("#home-page")}
-          className={styles.navigate}>
+        <button onClick={() => scrollTo("#home-page")} className="linkTo">
           Home
         </button>
-        <button
-          onClick={() => scrollTo("#toolset-page")}
-          className={styles.navigate}>
+        <button onClick={() => scrollTo("#toolset-page")} className="linkTo">
           Toolset
         </button>
-        <button
-          onClick={() => scrollTo("#projects-page")}
-          className={styles.navigate}>
+        <button onClick={() => scrollTo("#projects-page")} className="linkTo">
           Projects
         </button>
-        <button
-          onClick={() => scrollTo("#contact-page")}
-          className={styles.navigate}>
+        <button onClick={() => scrollTo("#contact-page")} className="linkTo">
           Contact
         </button>
       </div>

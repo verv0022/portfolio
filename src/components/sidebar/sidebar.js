@@ -7,16 +7,13 @@ const Sidebar = props => {
   if (props.show) {
     sidebarClasses = "sidebar show"
   }
-  const handleClick = e => {
-    scrollTo("#home-page")
-    props.hide(e.target)
-  }
 
   return (
     <nav className={sidebarClasses}>
       <ul>
         <li>
           <button
+            className="linkTo"
             onClick={event => {
               scrollTo("#home-page")
               props.hide(event)
@@ -26,6 +23,7 @@ const Sidebar = props => {
         </li>
         <li>
           <button
+            className="linkTo"
             onClick={event => {
               scrollTo("#toolset-page")
               props.hide(event)
@@ -35,6 +33,7 @@ const Sidebar = props => {
         </li>
         <li>
           <button
+            className="linkTo"
             onClick={event => {
               scrollTo("#projects-page")
               props.hide(event)
@@ -44,6 +43,7 @@ const Sidebar = props => {
         </li>
         <li>
           <button
+            className="linkTo"
             onClick={event => {
               scrollTo("#contact-page")
               props.hide(event)

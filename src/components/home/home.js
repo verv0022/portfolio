@@ -6,6 +6,7 @@ import pdf from "./icons/pdf.svg"
 import github from "./icons/github.svg"
 import linkedin from "./icons/linkedin.svg"
 import "animate.css/animate.min.css"
+import ScrollAnimation from "react-animate-on-scroll"
 
 const highlight = {
   color: "#CEA335",
@@ -46,13 +47,20 @@ const Home = () => (
             className={styles.icon}
           />
         </a>
-        {/* </ScrollAnimation> */}
       </div>
     </div>
-
-    <button className="navigate" onClick={() => scrollTo("#toolset-page")}>
-      <ScrollDownArrow />
-    </button>
+    <ScrollAnimation
+      animateOnce={true}
+      animateIn="fadeIn"
+      initiallyVisible={false}
+      animatePreScroll={true}
+      offset="1000"
+      duration="4"
+      delay="100">
+      <button className="navigate" onClick={() => scrollTo("#toolset-page")}>
+        <ScrollDownArrow />
+      </button>
+    </ScrollAnimation>
   </div>
 )
 

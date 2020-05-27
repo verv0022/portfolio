@@ -59,3 +59,32 @@ body {
   margin: 0.5rem 0;
   font-size: 1.333rem;
 }
+
+.linkTo {
+  font-size: 1.333rem;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  margin: 0px 10px;
+  padding: 0;
+  color: white;
+  outline: none;
+}
+
+@media (max-width: 899px) {
+  .title {
+    font-size: 1.777rem;
+    text-align: center;
+  }
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1299px) {
+}
+
+@media (min-width: 1300px) {
+}

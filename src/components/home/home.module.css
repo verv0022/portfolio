@@ -13,9 +13,9 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 90vh;
+  height: 85vh;
   width: 60%;
-  margin: 2rem auto 1rem auto;
+  margin: 2rem auto 0rem auto;
   /* background-color: #202029; */
 }
 
@@ -31,16 +31,16 @@ html {
 .icons {
   display: flex;
   flex-direction: row;
-  margin: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 1rem 0rem;
   animation: bounceInUp 3s ease-in;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
   animation-fill-mode: both;
 }
 .icon {
   fill: white;
   color: white;
   height: 50px;
-  margin: 1rem 2rem 2rem 0;
+  margin: 1rem 2rem 0rem 0rem;
 }
 
 @keyframes slideLeft {
@@ -139,4 +139,25 @@ html {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+}
+
+@media (max-width: 899px) {
+  .description {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .icon {
+    height: 40px;
+    margin: 4rem 1rem 0 1rem;
+  }
+  .icons {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1299px) {
+}
+
+@media (min-width: 1300px) {
 }
