@@ -73,6 +73,10 @@ body {
   outline: none;
 }
 
+.linkTo:hover {
+  color: #cea335;
+}
+
 @media (max-width: 899px) {
   .title {
     font-size: 1.777rem;

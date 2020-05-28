@@ -25,12 +25,13 @@
   text-align: center;
 }
 
-.sidebar a {
-  text-decoration: none;
-}
-
 .sidebar li {
   border-bottom: solid white 1px;
+}
+
+.sidebar div {
+  font-size: 1.777rem;
+  margin: 10px 0;
 }
 
 .sidebar li:hover {
@@ -40,11 +41,6 @@
 /* .sidebar li:first-child {
   border-top: solid white 1px;
 } */
-
-.sidebar button {
-  margin: 10px 0;
-  font-size: 1.777rem;
-}
 
 /* @media (min-width: 900px) {
   .sidebar {

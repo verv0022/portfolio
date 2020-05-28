@@ -12,44 +12,44 @@ const Sidebar = props => {
     <nav className={sidebarClasses}>
       <ul>
         <li>
-          <button
-            className="linkTo"
+          <div
+            role="presentation"
             onClick={event => {
               scrollTo("#home-page")
               props.hide(event)
             }}>
             Home
-          </button>
+          </div>
         </li>
         <li>
-          <button
-            className="linkTo"
+          <div
+            role="presentation"
             onClick={event => {
               scrollTo("#toolset-page")
               props.hide(event)
             }}>
             Toolset
-          </button>
+          </div>
         </li>
         <li>
-          <button
-            className="linkTo"
+          <div
+            role="presentation"
             onClick={event => {
               scrollTo("#projects-page")
               props.hide(event)
             }}>
             Projects
-          </button>
+          </div>
         </li>
         <li>
-          <button
-            className="linkTo"
+          <div
+            role="presentation"
             onClick={event => {
               scrollTo("#contact-page")
               props.hide(event)
             }}>
             Contact
-          </button>
+          </div>
         </li>
       </ul>
     </nav>

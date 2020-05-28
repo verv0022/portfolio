@@ -7,6 +7,7 @@ import Footer from "../components/footer/footer.js"
 import Toolset from "../components/toolset/toolset.js"
 import Sidebar from "../components/sidebar/sidebar"
 import Backdrop from "../components/backdrop/backdrop"
+import { Helmet } from "react-helmet"
 
 require("typeface-league-spartan")
 
@@ -34,6 +35,10 @@ class IndexPage extends React.Component {
 
     return (
       <div style={{ height: "100%" }}>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Brandon Vervoort</title>
+        </Helmet>
         <Header hamburgerClickHandler={this.hamburgerClickHandler} />
         <Sidebar
           show={this.state.isSidebarOpen}

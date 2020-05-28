@@ -16,13 +16,6 @@
   margin: 0 10px;
 }
 
-.navigate:hover {
-  color: #cea335;
-}
-.navigate:focus {
-  text-decoration: none;
-}
-
 .hamburger {
   display: flex;
   flex-direction: column;
