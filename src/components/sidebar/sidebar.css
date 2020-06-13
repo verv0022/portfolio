@@ -4,11 +4,11 @@
   box-shadow: -1px 0px 5px black;
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   width: 70%;
   max-width: 400px;
   z-index: 3;
-  transform: translateX(200%);
+  transform: translateX(-200%);
   transition: transform 0.3s ease;
   background-color: #2b3038;
   color: white;
@@ -22,11 +22,12 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
 }
 
 .sidebar li {
   border-bottom: solid white 1px;
+  padding: 0 1rem;
 }
 
 .sidebar div {

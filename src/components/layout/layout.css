@@ -76,6 +76,34 @@ body {
 .linkTo:hover {
   color: #cea335;
 }
+.close {
+  color: black;
+  text-decoration: none;
+}
+.modalContent {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  right: 100px;
+  bottom: 50px;
+  background-color: rgba(255, 255, 255);
+  z-index: 7;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  color: black;
+  padding: 20px;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: rgba(255, 255, 255, 0.75);
+  z-index: 7;
+}
 
 @media (max-width: 899px) {
   .title {
@@ -85,9 +113,21 @@ body {
   .description {
     font-size: 1rem;
   }
+  .modalContent {
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+  }
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
+  .modalContent {
+    top: 50px;
+    left: 100px;
+    right: 100px;
+    bottom: 50px;
+  }
 }
 
 @media (min-width: 1300px) {

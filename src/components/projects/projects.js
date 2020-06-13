@@ -17,6 +17,7 @@ const Projects = () => {
             name
             description
             url
+            link
             image {
               childImageSharp {
                 fluid {
@@ -66,6 +67,7 @@ const Projects = () => {
                   description={project.description}
                   imageData={project.image.childImageSharp.fluid}
                   url={project.url}
+                  link={project.link}
                 />
               )
             })}

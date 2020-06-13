@@ -2,37 +2,43 @@
   {
     "name": "Restaurant Finder",
     "url": "https://github.com/verv0022/yelp-restaurant-finder",
-    "image": "./images/yelp.png",
-    "description": "A mobile application for finding nearby restaurants."
+    "image": "./images/test.png",
+    "description": "A mobile application for finding nearby restaurants.",
+    "link": "./modal-example"
   },
   {
     "name": "CBSA Helper",
-    "url": "https://github.com/rign0002/GenTeque",
-    "image": "./images/yelp.png",
-    "description": "An Alexa/Google home voice-assistant I designed for the CBSA."
+    "url": "https://github.com/verv0022/CBSA-Helper",
+    "image": "./images/test.png",
+    "description": "An Alexa/Google home voice-assistant I designed for the CBSA.",
+    "link": "./test"
   },
   {
     "name": "My Project",
     "url": "https://github.com",
-    "image": "./images/yelp.png",
-    "description": "I built this with gatsby"
+    "image": "./images/test.png",
+    "description": "An Alexa/Google home voice-assistant I designed for the CBSA.",
+    "link": "./test"
   },
   {
     "name": "My Project",
     "url": "https://github.com",
-    "image": "./images/yelp.png",
-    "description": "I built this with gatsby"
+    "image": "./images/test.png",
+    "description": "An Alexa/Google home voice-assistant I designed for the CBSA.",
+    "link": "./test"
   },
   {
     "name": "My Project",
     "url": "https://github.com",
-    "image": "./images/yelp.png",
-    "description": "I built this with gatsby"
+    "image": "./images/test.png",
+    "description": "An Alexa/Google home voice-assistant I designed for the CBSA.",
+    "link": "./test"
   },
   {
     "name": "My Project",
     "url": "https://github.com",
-    "image": "./images/yelp.png",
-    "description": "I built this with gatsby"
+    "image": "./images/test.png",
+    "description": "An Alexa/Google home voice-assistant I designed for the CBSA.",
+    "link": "./test"
   }
 ]

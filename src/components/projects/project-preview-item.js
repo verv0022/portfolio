@@ -1,23 +1,21 @@
 import React from "react"
 import Img from "gatsby-image"
 import styles from "./projects.module.css"
+import { Link } from "gatsby"
 
-const ProjectPreviewItem = ({ name, imageData, description, url }) => {
+const ProjectPreviewItem = ({ name, imageData, description, url, link }) => {
   return (
     <div className={styles.card}>
-      <div className={styles.overlay}>
-        <a href={url}>
-          <Img fluid={imageData} alt={name} className="project-img"></Img>
-        </a>
-        <div className={styles.details}>
-          <h2>
-            <a href={url}>{name}</a>
-          </h2>
-          <a className={styles.description} href={url}>
-            <p>{description}</p>
-          </a>
+      <Img className={styles.cardImage} fluid={imageData} alt={name}></Img>
+      <Link
+        to={link}
+        state={{
+          modal: true,
+        }}>
+        <div className={styles.overlay}>
+          <div className={styles.overlayContent}>{description}</div>
         </div>
-      </div>
+      </Link>
     </div>
   )
 }
