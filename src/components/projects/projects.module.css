@@ -96,7 +96,12 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
   .card {
-    width: 150px;
+    width: 200px;
+    height: 200px;
+  }
+  .cardImage {
+    width: 200px;
+    height: 200px;
   }
   .details {
     font-size: 0.75rem;
