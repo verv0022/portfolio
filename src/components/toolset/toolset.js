@@ -28,15 +28,15 @@ const Toolset = () => {
           animateOnce={true}
           animateIn="fadeIn"
           initiallyVisible={false}
-          duration="3">
+          duration={3}>
           <h1 className="title">Toolset</h1>
         </ScrollAnimation>
         <ScrollAnimation
           animateOnce={true}
           animateIn="fadeIn"
           initiallyVisible={false}
-          duration="3"
-          delay="100">
+          duration={3}
+          delay={100}>
           <p className="description">
             Here are some of the tools and technologies I have experience with:
           </p>
@@ -45,8 +45,8 @@ const Toolset = () => {
           animateOnce={true}
           animateIn="fadeIn"
           initiallyVisible={false}
-          duration="3"
-          delay="300">
+          duration={3}
+          delay={100}>
           <div className={styles.tools}>
             <img src={html} alt="html" height="120"></img>
             <img src={css} alt="css" height="120"></img>
@@ -71,8 +71,8 @@ const Toolset = () => {
           animateOnce={true}
           animateIn="fadeIn"
           initiallyVisible={false}
-          duration="3"
-          delay="100">
+          duration={3}
+          delay={100}>
           <button
             className="navigate"
             onClick={() => scrollTo("#projects-page")}>

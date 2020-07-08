@@ -31,7 +31,6 @@ const Projects = () => {
     }
   `)
   const projects = data.allProjectsJson.edges
-
   return (
     <div className="container" id="projects-page">
       <div className="content">
@@ -39,15 +38,15 @@ const Projects = () => {
           animateOnce={true}
           animateIn="fadeIn"
           initiallyVisible={false}
-          duration="3">
+          duration={3}>
           <h1 className="title">Recent Projects</h1>
         </ScrollAnimation>
         <ScrollAnimation
           animateOnce={true}
           animateIn="fadeIn"
           initiallyVisible={false}
-          duration="3"
-          delay="100">
+          duration={3}
+          delay={100}>
           <p className="description">
             These are some projects that I've worked on:
           </p>
@@ -56,8 +55,8 @@ const Projects = () => {
           animateOnce={true}
           animateIn="fadeIn"
           initiallyVisible={false}
-          duration="3"
-          delay="300">
+          duration={3}
+          delay={300}>
           <div className={styles.preview}>
             {projects.map(({ node: project }) => {
               return (
@@ -78,8 +77,8 @@ const Projects = () => {
         animateOnce={true}
         animateIn="fadeIn"
         initiallyVisible={false}
-        duration="3"
-        delay="100">
+        duration={3}
+        delay={100}>
         <button className="navigate" onClick={() => scrollTo("#contact-page")}>
           <ScrollDownArrow />
         </button>

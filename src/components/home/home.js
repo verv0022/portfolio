@@ -54,9 +54,9 @@ const Home = () => (
       animateIn="fadeIn"
       initiallyVisible={false}
       animatePreScroll={true}
-      offset="1000"
-      duration="4"
-      delay="100">
+      offset={1000}
+      duration={4}
+      delay={100}>
       <button className="navigate" onClick={() => scrollTo("#toolset-page")}>
         <ScrollDownArrow />
       </button>

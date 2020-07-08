@@ -9,23 +9,23 @@ const Contact = () => (
         animateOnce={true}
         animateIn="fadeIn"
         initiallyVisible={false}
-        duration="3">
+        duration={3}>
         <h1 className="title">Contact me</h1>
       </ScrollAnimation>
       <ScrollAnimation
         animateOnce={true}
         animateIn="fadeIn"
         initiallyVisible={false}
-        duration="3"
-        delay="100">
+        duration={3}
+        delay={100}>
         <p className="description">Let's get in touch!</p>
       </ScrollAnimation>
       <ScrollAnimation
         animateOnce={true}
         animateIn="fadeIn"
         initiallyVisible={false}
-        duration="3"
-        delay="300">
+        duration={3}
+        delay={300}>
         <form
           name="contact-form"
           method="POST"
