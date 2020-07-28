@@ -4,41 +4,41 @@
     "url": "https://github.com/verv0022/yelp-restaurant-finder",
     "image": "./images/yelp.png",
     "description": "A mobile application for finding nearby restaurants.",
-    "link": "/modal-example/"
+    "link": "https://github.com/verv0022/yelp-restaurant-finder"
   },
   {
     "name": "CBSA Helper",
     "url": "https://github.com/verv0022/CBSA-Helper",
     "image": "./images/cbsa.png",
     "description": "An Alexa/Google home voice-assistant I worked on for the CBSA.",
-    "link": "/test"
+    "link": "https://github.com/verv0022/CBSA-Helper"
+  },
+  {
+    "name": "Care Connect",
+    "url": "https://xd.adobe.com/view/be0f2bcb-6e9d-4165-554b-ca28da66a747-c83e/",
+    "image": "./images/caregiver.png",
+    "description": "A design for an application used to help find caregivers",
+    "link": "https://xd.adobe.com/view/be0f2bcb-6e9d-4165-554b-ca28da66a747-c83e/"
+  },
+  {
+    "name": "Playr",
+    "url": "https://github.com/verv0022/playr",
+    "image": "./images/playr.png",
+    "description": "A music player application created with Cordova",
+    "link": "https://github.com/verv0022/playr"
+  },
+  {
+    "name": "Xamarin",
+    "url": "https://github.com/verv0022/XamarinImageToSpeech",
+    "image": "./images/xam.png",
+    "description": "A Cross platform speech synthesizer used to speak the image description, confidence level and image tags returned from the Microsoft Cognitive Services REST API.",
+    "link": "https://github.com/verv0022/XamarinImageToSpeech"
   },
   {
     "name": "My Project",
-    "url": "https://github.com",
-    "image": "./images/caregiver.png",
-    "description": "An application used to find caregivers I designed",
-    "link": "/test"
-  },
-  {
-    "name": "My Project",
-    "url": "https://github.com",
-    "image": "./images/caregiver.png",
+    "url": "https://github.com/verv0022/CBSA-Helper",
+    "image": "./images/crud.png",
     "description": "An Alexa/Google home voice-assistant I designed for the CBSA.",
-    "link": "/test"
-  },
-  {
-    "name": "My Project",
-    "url": "https://github.com",
-    "image": "./images/caregiver.png",
-    "description": "An Alexa/Google home voice-assistant I designed for the CBSA.",
-    "link": "/test"
-  },
-  {
-    "name": "My Project",
-    "url": "https://github.com",
-    "image": "./images/caregiver.png",
-    "description": "An Alexa/Google home voice-assistant I designed for the CBSA.",
-    "link": "/test"
+    "link": "https://github.com/verv0022/CBSA-Helper"
   }
 ]
