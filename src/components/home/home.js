@@ -19,10 +19,10 @@ const Home = () => (
         Hi, I'm <span style={highlight}>Brandon</span>{" "}
       </h1>
       <p className={styles.description}>
-        I'm a <span style={highlight}>developer</span> and{" "}
-        <span style={highlight}>UX designer</span> with experience in{" "}
+        I'm a <span style={highlight}>developer</span> with{" "}
+        <span style={highlight}>UX design</span> skills who has experience in{" "}
         <span style={highlight}>mobile</span> and{" "}
-        <span style={highlight}>web applications</span> who is focusing on
+        <span style={highlight}>web applications.</span> I am focusing on
         front-end development, with a goal of becoming a full-stack developer. I
         am currently seeking an <span style={highlight}>entry level </span>
         position.
