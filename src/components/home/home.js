@@ -33,7 +33,7 @@ const Home = () => (
           animateIn="bounceInUp"
           animatePreScroll={false}> */}
         <a
-          href={`https://drive.google.com/file/d/1EqlVAOuj1T2tKD0WQjvxhOH7N14BO_ld/view`}>
+          href={`https://drive.google.com/file/d/1EqlVAOuj1T2tKD0WQjvxhOH7N14BO_ld/view?usp=sharing`}>
           <img src={pdf} alt="Resume" height="50" className={styles.icon} />
         </a>
         <a href={`https://github.com/verv0022`}>

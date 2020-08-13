@@ -91,17 +91,38 @@ a {
   }
 }
 
-@media (max-width: 899px) {
+@media (max-width: 199px) {
+  .preview {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    width: 100px;
+    height: 100px;
+  }
+  .cardImage {
+    width: 100px;
+    height: 100px;
+  }
+  .details {
+    font-size: 0.75rem;
+    padding: 5px;
+  }
+  .description {
+    font-size: 0.563rem;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 899px) {
   .preview {
     grid-template-columns: repeat(2, 1fr);
   }
   .card {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   .cardImage {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   .details {
     font-size: 0.75rem;
