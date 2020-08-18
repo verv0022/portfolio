@@ -19,13 +19,11 @@ const Home = () => (
         Hi, I'm <span style={highlight}>Brandon</span>{" "}
       </h1>
       <p className={styles.description}>
-        I'm a <span style={highlight}>developer</span> with{" "}
-        <span style={highlight}>UX design</span> skills who has experience in{" "}
-        <span style={highlight}>mobile</span> and{" "}
-        <span style={highlight}>web applications.</span> I am focusing on
-        front-end development, with a goal of becoming a full-stack developer. I
-        am currently seeking an <span style={highlight}>entry level </span>
-        position.
+        I'm a front-end <span style={highlight}>developer</span> with a good
+        balance of creative and technical skills who loves learning new
+        technologies. I have knowledge in{" "}
+        <span style={highlight}>UX design</span> and love to develop mobile and
+        web applications.
       </p>
       <div className={styles.icons}>
         {/* <ScrollAnimation

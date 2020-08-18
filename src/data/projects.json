@@ -36,9 +36,9 @@
   },
   {
     "name": "My Project",
-    "url": "https://github.com/verv0022/CBSA-Helper",
+    "url": "https://github.com/verv0022/react-firebase-journal",
     "image": "./images/crud.png",
-    "description": "An Alexa/Google home voice-assistant I designed for the CBSA.",
-    "link": "https://github.com/verv0022/CBSA-Helper"
+    "description": "A sample CRUD React app website that uses firebase to store data.",
+    "link": "https://github.com/verv0022/react-firebase-journal"
   }
 ]

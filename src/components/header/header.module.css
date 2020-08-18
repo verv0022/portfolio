@@ -15,6 +15,16 @@
 .navbar {
   margin: 0 10px;
 }
+.container {
+  display: flex;
+  position: fixed;
+  left: 0;
+  margin-left: 2rem;
+}
+.logo {
+  width: 75px;
+  height: auto;
+}
 
 .hamburger {
   display: flex;

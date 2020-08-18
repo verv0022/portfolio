@@ -6,7 +6,6 @@ html {
 * {
   box-sizing: border-box;
 }
-
 .tools {
   display: grid;
   grid-gap: 40px;
