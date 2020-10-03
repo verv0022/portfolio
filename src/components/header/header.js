@@ -8,7 +8,7 @@ const Header = props => {
   return (
     <div className={styles.header}>
       <div className={styles.container}>
-        <img className={styles.logo} src={logo}></img>
+      
       </div>
       <div className={styles.navbar}>
         <button onClick={() => scrollTo("#home-page")} className="linkTo">
